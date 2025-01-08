@@ -336,6 +336,11 @@ img {
 .burger-section__picture-burger:nth-child(1) {
   object-position: 50% 90%;
 }
+.burger-section__numero-burger {
+  inline-size: 100%;
+  display: flex;
+  justify-content: space-between;
+}
 .burger-section__name-burger {
   font-family: "Roboto";
   font-size: 1.25rem;

@@ -1,5 +1,6 @@
 const containerBurger = document.getElementById("container-burger");
 
+
 async function chargerBurgers() {
   try {
     const response = await fetch("https://titi.startwin.fr/products/type/burger");

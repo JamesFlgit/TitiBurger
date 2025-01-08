@@ -227,7 +227,7 @@ img {
 
 main {
   inline-size: 100%;
-  block-size: 2088px;
+  block-size: auto;
 }
 
 .command-header {
@@ -424,8 +424,7 @@ main {
 }
 .list-command__description-article {
   inline-size: 479px;
-  block-size: 136px;
-  margin-inline-start: 78px;
+  block-size: 100%;
   font-family: "Roboto";
   font-size: 1.8125rem;
   color: #5F6368;
