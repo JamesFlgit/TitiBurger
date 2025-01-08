@@ -15,3 +15,8 @@ function cacherListe() {
 // Ajoutez les événements pour le survol et la sortie du survol
 linkRubrique.addEventListener('mouseover', afficherListe);
 linkRubrique.addEventListener('mouseout', cacherListe);
+
+
+
+
+

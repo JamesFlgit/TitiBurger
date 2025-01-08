@@ -14,11 +14,11 @@ async function chargerAccompagnement() {
       div.innerHTML = `
             <div class="list-command__content-article">
                 <div class="style-radio">
-                <input type="radio.name}" name="${acc.name}" value="${acc.name}" class="list-command__input radio">
+                <input type="radio" id="${acc.name}" name="options" value="${acc.name}" class="list-command__input radio">
                 <span class="look-radio"></span>
                 </div>
                 <div class="list-command__content-img-article"><div class="list-command__bg-img-article"></div><img src="https://titi.startwin.fr${acc.image}" alt=""https://titi.startwin.fr${acc.name}"" class="list-command__img-article" width="206" height="194"></div>
-                <div class="list-command__content-label"><label for="${acc.name}" class="list-command__label">${acc.name}</label></div>
+                <div class="list-command__content-label"><label for="${acc.name}" class="list-command__label">${acc.name} - ${acc.price.$numberDecimal}€</label></div>
                 <p class="list-command__description-article">${acc.description}</p>
             </div>
 

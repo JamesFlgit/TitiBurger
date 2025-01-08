@@ -13,11 +13,11 @@ async function chargerBurgers() {
       div.innerHTML = `
             <div class="list-command__content-article">
                 <div class="style-radio">
-                <input type="radio" id="${burger.name}" name="${burger.name}" value="${burger.name}" class="list-command__input radio">
+                <input type="radio" id="${burger.name}" name="options" value="${burger.name}" class="list-command__input radio">
                 <span class="look-radio"></span>
                 </div>
                 <div class="list-command__content-img-article"><div class="list-command__bg-img-article"></div><img src="https://titi.startwin.fr${burger.image}" alt=""https://titi.startwin.fr${burger.name}"" class="list-command__img-article" width="206" height="194"></div>
-                <div class="list-command__content-label"><label for="${burger.name}" class="list-command__label">${burger.name}</label></div>
+                <div class="list-command__content-label"><label for="${burger.name}" class="list-command__label">${burger.name} - ${burger.price.$numberDecimal}</label></div>
                 <p class="list-command__description-article">${burger.description}</p>
             </div>
 

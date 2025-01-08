@@ -17,11 +17,11 @@ async function chargerBoissons() {
     <div class="list-command__dashed"><img src="assets/images/semi-line-dashed.png" alt="mi dashed"></div>
     <div class="list-command__container-article">
     <div class="style-radio">
-    <input type="radio" id="${boisson.name}" name="${boisson.name}" value="${boisson.name}" class="list-command__input radio">
+    <input type="radio" id="${boisson.name}" name="options" value="${boisson.name}" class="list-command__input radio">
     <span class="look-radio"></span>
     </div>
     <div class="list-command__content-img-article"><div class="list-command__bg-img-article"></div><img src="https://titi.startwin.fr${boisson.image}" alt="Frites de patate douce" class="list-command__img-article" width="206" height="194"></div>
-    <div class="list-command__content-label"><label for="${boisson.name}" class="list-command__label">${boisson.name}</div>
+    <div class="list-command__content-label"><label for="${boisson.name}" class="list-command__label">${boisson.name} - ${boisson.price.$numberDecimal}€</div>
     </div>
     <div class="list-command__dashed"><img src="assets/images/semi-line-dashed.png" alt="mi dashed"></div>
 </div>    `;
