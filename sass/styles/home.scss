@@ -122,12 +122,19 @@
     &__picture-burger:nth-child(1){
         object-position: 50% 90%;
     }
+    &__numero-burger{
+        inline-size: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
     &__name-burger{
         font-family: base.$basic-text;
         font-size: base.$fs-20;
         margin-block-start: 8px;
     }
 }
+
+
 
 /* Section Actus */
 
@@ -314,3 +321,4 @@
         block-size: 40px;
     }
 }
+

@@ -7,7 +7,7 @@
 
 main {
     inline-size: 100%;
-    block-size: 2088px;
+    block-size: auto;
 }
 
 .command-header {
@@ -205,7 +205,7 @@ main {
     }
     &__description-article{
         inline-size: 479px;
-        block-size: 136px;
+        block-size: 100%;
         margin-inline-start: 78px;
         font-family: base.$basic-text;
         font-size: base.$fs-29;
