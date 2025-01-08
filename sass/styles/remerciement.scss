@@ -1,0 +1,106 @@
+@use "../base";
+@use "../layouts/navbar";
+@use "../layouts/footer";
+@use "../utils/classes";
+@use "../utils/typography";
+@use "../components/buttons";
+
+main {
+    inline-size: 100%;
+    block-size: 1462px;
+}
+
+.remerciements-header {
+    inline-size: 100%;
+    display: flex;
+    margin-block-start: 243px;
+    &__container{
+        inline-size: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__number-order{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        inline-size: 705px;
+        block-size: 78px;
+        margin-block-end: 35px;
+        background-color: base.$point-desabled;
+        font-family: base.$basic-text;
+        font-size: base.$fs-38;
+        font-weight: 500;
+        color: base.$grey-title-and-bg-buttons;
+    }
+    &__content-click-collect{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        block-size: 130px;
+    }
+    &__content-block-title{
+        display: flex;
+        align-items: center;
+        margin-inline-start: 101px;
+    }
+    &__border-title{
+        inline-size: 26px;
+        block-size: 4px;
+        margin-block-start: 20px;
+        background-color: base.$grey-title-and-bg-buttons;
+    }
+    &__head-title{
+        font-family: base.$font-title;
+        color: base.$pink;
+        font-size: base.$fs-51;
+        padding-inline: 13px;
+    }
+    &__sub-title{
+        font-family: base.$basic-text;
+        font-size: base.$fs-32;
+        color: base.$grey-title-and-bg-buttons;
+        margin-inline-start: 101px;
+        margin-block-end: 23px;
+    }
+}
+
+.remerciements-main {
+    inline-size: 100%;
+    display: flex;
+    flex-direction: column;
+    &__dashed{
+        margin-block-end: 326px;
+    }
+    &__container{
+        inline-size: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__number-order{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        inline-size: 705px;
+        block-size: 78px;
+        margin-block-end: 35px;
+        background-color: base.$point-desabled;
+        font-family: base.$basic-text;
+        font-size: base.$fs-38;
+        font-weight: 500;
+        color: base.$grey-title-and-bg-buttons;
+    }
+    &__informations{
+        font-family: base.$basic-text;
+        font-size: base.$fs-38;
+        color: base.$grey-title-and-bg-buttons;
+        font-weight: 500;
+    }
+    &__hours{
+        font-family: base.$basic-text;
+        font-size: base.$fs-38;
+        font-weight: 700;
+        margin-block-start: 51px;
+    }
+
+}

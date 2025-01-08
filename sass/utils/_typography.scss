@@ -1,1 +1,23 @@
 @use "../base/theme";
+
+.u-basic-text {
+    font-family: theme.$basic-text;
+}
+
+.u-section-h2 {
+    font-size: theme.$fs-48;
+    font-family: theme.$font-title;
+    color: theme.$pink;
+}
+
+.u-section-h3 {
+    font-size: theme.$fs-32;
+    color: theme.$grey-title-and-bg-buttons;
+    font-weight: normal;
+}
+
+.u-section-h2-click-collect {
+    font-size: theme.$fs-87;
+    font-family: theme.$font-title;
+    color: theme.$pink;
+}

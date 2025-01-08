@@ -1,8 +1,18 @@
 // Fonts
-
+$basic-text : "Roboto";
+$font-title : "Homeday";
 
 // Palette
-
+$white-main : #ffffff;
+$grey-title-and-bg-buttons : #494C4F;
+$color-grey-text1: #979797;
+$color-grey-text2: #5F6368;
+$color-grey-text3: #696A6C;
+$dashed-design : #576D8B;
+$dark-black : #000000;
+$blue-footer : #102940;
+$pink : #D9ADD6;
+$point-desabled : #D9D9D9;
 
 // REM font-sizes
 $fs-14: 0.875rem;
@@ -11,16 +21,19 @@ $fs-18: 1.125rem;
 $fs-20: 1.25rem;
 $fs-22: 1.375rem;
 $fs-24: 1.5rem;
+$fs-25: 1.5625rem;
+$fs-29: 1.8125rem;
+$fs-31: 1.9375rem;
 $fs-32: 2rem;
 $fs-33: 2.0625rem;
 $fs-36: 2.25rem;
+$fs-38: 2.375rem;
 $fs-40: 2.5rem;
+$fs-48: 3rem;
 $fs-50: 3.125rem;
+$fs-51: 3.1875rem;
+$fs-52: 3.25rem;
+$fs-57: 3,5625rem;
 $fs-60: 3.75rem;
 $fs-80: 5rem;
-
-// dimensions
-$table-sub-container: 600px;
-
-// breakpoints
-$lg-breakpoint: 1130px;
+$fs-87: 5.4375rem;

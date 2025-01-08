@@ -1,0 +1,45 @@
+@use "../base/theme";
+
+
+@mixin button-aspect {
+    font-family: theme.$basic-text;
+    font-size: theme.$fs-14;
+    color: theme.$white-main;
+    background-color: theme.$pink;
+    padding-inline: 21px;
+    padding-block-start: 11px;
+    padding-block-end: 12px;
+    inline-size: 132px;
+    block-size: 39px;
+    line-height: 133.33%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+@mixin button-aspect-secondaire {
+    font-family: theme.$basic-text;
+    font-size: theme.$fs-20;
+    font-weight: 300;
+    color: theme.$white-main;
+    background-color: theme.$grey-title-and-bg-buttons;
+    padding-block-start: 11px;
+    padding-block-end: 12px;
+    inline-size: 126px;
+    block-size: 46px;
+    line-height: 133.33%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+@mixin button-aspect-cta-start {
+    font-family: theme.$basic-text;
+    font-size: theme.$fs-38;
+    font-weight: 400;
+    color: theme.$white-main;
+    background-color: theme.$pink;
+    padding-block-start: 11px;
+    padding-block-end: 12px;
+    inline-size: 456px;
+    block-size: 89px;
+    line-height: 133.33%;
+    border-radius: 4px;
+    cursor: pointer;
+}

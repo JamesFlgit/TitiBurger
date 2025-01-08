@@ -1,0 +1,327 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  height: auto;
+}
+
+.l-main-nav {
+  position: absolute;
+  top: 21px;
+  inline-size: 100%;
+}
+.l-main-nav__container {
+  display: flex;
+  justify-content: space-between;
+  padding-inline-start: 34px;
+}
+.l-main-nav__content-right {
+  margin-inline-end: 65px;
+}
+.l-main-nav__container-toggle-button {
+  display: flex;
+  justify-content: flex-end;
+}
+.l-main-nav__cta:last-child {
+  margin-inline-start: 26px;
+}
+.l-main-nav__cta-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+.l-main-nav__container-list {
+  inline-size: 591px;
+  margin-block-start: 25px;
+  display: flex;
+}
+.l-main-nav__list {
+  inline-size: 100%;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.l-main-nav__link {
+  font-size: 1.25rem;
+  color: #ffffff;
+  font-weight: 300;
+}
+.l-main-nav__ul-rubrique {
+  position: absolute;
+  margin-block-start: 10px;
+  list-style-type: none;
+  block-size: 220px;
+  inline-size: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #000000;
+  padding-block: 10px;
+}
+.l-main-nav__rubriques-link {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 1rem;
+  font-weight: 300;
+  margin-inline-start: 10px;
+}
+
+/* Footer */
+.l-main-footer {
+  inline-size: 100%;
+  block-size: 336px;
+  background-color: #102940;
+}
+.l-main-footer__container {
+  display: flex;
+}
+.l-main-footer__list {
+  list-style-type: none;
+  color: #ffffff;
+}
+.l-main-footer__content-left {
+  inline-size: 504px;
+  block-size: 100%;
+  display: flex;
+}
+.l-main-footer__container-mention-legales {
+  inline-size: 277px;
+  margin-block-start: 61px;
+  display: flex;
+  block-size: 129px;
+}
+.l-main-footer__container-plan-site {
+  inline-size: 229px;
+  margin-block-start: 61px;
+  block-size: 205px;
+  display: flex;
+}
+.l-main-footer__content-center {
+  inline-size: 302px;
+  block-size: 100%;
+  margin-block-start: 61px;
+}
+.l-main-footer__card iframe {
+  inline-size: 302px;
+  block-size: 169px;
+  background-color: #ffffff;
+  margin-block-start: 21px;
+}
+.l-main-footer__content-right {
+  margin-block-start: 61px;
+  inline-size: 540px;
+  block-size: 100%;
+  display: flex;
+}
+.l-main-footer__container-divers-social {
+  inline-size: 298px;
+  block-size: 134px;
+  margin-inline-start: 142px;
+  display: flex;
+}
+.l-main-footer__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.l-main-footer__link {
+  font-family: "Roboto";
+  font-size: 1.25rem;
+  color: #ffffff;
+  font-weight: 100;
+  justify-content: space-between;
+}
+.l-main-footer__container-social-media {
+  inline-size: 145px;
+  block-size: 188PX;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.l-main-footer__svg-social {
+  object-fit: contain;
+}
+
+.u-container {
+  max-inline-size: 1253px;
+  margin-inline: auto;
+  text-align: start;
+}
+
+.u-basic-text {
+  font-family: "Roboto";
+}
+
+.u-section-h2 {
+  font-size: 3rem;
+  font-family: "Homeday";
+  color: #D9ADD6;
+}
+
+.u-section-h3 {
+  font-size: 2rem;
+  color: #494C4F;
+  font-weight: normal;
+}
+
+.u-section-h2-click-collect {
+  font-size: 5.4375rem;
+  font-family: "Homeday";
+  color: #D9ADD6;
+}
+
+.c-pink-button {
+  font-family: "Roboto";
+  font-size: 0.875rem;
+  color: #ffffff;
+  background-color: #D9ADD6;
+  padding-inline: 21px;
+  padding-block-start: 11px;
+  padding-block-end: 12px;
+  inline-size: 132px;
+  block-size: 39px;
+  line-height: 133.33%;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+
+.c-button-secondaire {
+  font-family: "Roboto";
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #ffffff;
+  background-color: #494C4F;
+  padding-block-start: 11px;
+  padding-block-end: 12px;
+  inline-size: 126px;
+  block-size: 46px;
+  line-height: 133.33%;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+
+.c-button-cta-start {
+  font-family: "Roboto";
+  font-size: 2.375rem;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #D9ADD6;
+  padding-block-start: 11px;
+  padding-block-end: 12px;
+  inline-size: 456px;
+  block-size: 89px;
+  line-height: 133.33%;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+
+main {
+  inline-size: 100%;
+  block-size: 1462px;
+}
+
+.remerciements-header {
+  inline-size: 100%;
+  display: flex;
+  margin-block-start: 243px;
+}
+.remerciements-header__container {
+  inline-size: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.remerciements-header__number-order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  inline-size: 705px;
+  block-size: 78px;
+  margin-block-end: 35px;
+  background-color: #D9D9D9;
+  font-family: "Roboto";
+  font-size: 2.375rem;
+  font-weight: 500;
+  color: #494C4F;
+}
+.remerciements-header__content-click-collect {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  block-size: 130px;
+}
+.remerciements-header__content-block-title {
+  display: flex;
+  align-items: center;
+  margin-inline-start: 101px;
+}
+.remerciements-header__border-title {
+  inline-size: 26px;
+  block-size: 4px;
+  margin-block-start: 20px;
+  background-color: #494C4F;
+}
+.remerciements-header__head-title {
+  font-family: "Homeday";
+  color: #D9ADD6;
+  font-size: 3.1875rem;
+  padding-inline: 13px;
+}
+.remerciements-header__sub-title {
+  font-family: "Roboto";
+  font-size: 2rem;
+  color: #494C4F;
+  margin-inline-start: 101px;
+  margin-block-end: 23px;
+}
+
+.remerciements-main {
+  inline-size: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.remerciements-main__dashed {
+  margin-block-end: 326px;
+}
+.remerciements-main__container {
+  inline-size: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.remerciements-main__number-order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  inline-size: 705px;
+  block-size: 78px;
+  margin-block-end: 35px;
+  background-color: #D9D9D9;
+  font-family: "Roboto";
+  font-size: 2.375rem;
+  font-weight: 500;
+  color: #494C4F;
+}
+.remerciements-main__informations {
+  font-family: "Roboto";
+  font-size: 2.375rem;
+  color: #494C4F;
+  font-weight: 500;
+}
+.remerciements-main__hours {
+  font-family: "Roboto";
+  font-size: 2.375rem;
+  font-weight: 700;
+  margin-block-start: 51px;
+}
+
+/*# sourceMappingURL=remerciement.css.map */

@@ -1,0 +1,15 @@
+@use "../components/mixins";
+
+
+.c-pink-button {
+    @include mixins.button-aspect;
+    border: none;
+}
+.c-button-secondaire {
+    @include mixins.button-aspect-secondaire;
+    border: none;
+}
+.c-button-cta-start {
+    @include mixins.button-aspect-cta-start;
+    border: none;
+}

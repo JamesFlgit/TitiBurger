@@ -1,0 +1,52 @@
+@use "../base";
+@use "../layouts/navbar";
+@use "../layouts/footer";
+@use "../utils/classes";
+@use "../utils/typography";
+@use "../components/buttons";
+
+/* Section Click& Collect*/
+
+.click-collect-section{
+    margin-block-start: 120px;
+    inline-size: 100%;
+    block-size: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    &__sub-title{
+        font-family: base.$basic-text;
+        font-size: base.$fs-52;
+        font-weight: 500;
+        color: base.$grey-title-and-bg-buttons;
+    }
+    &__paragraph{
+        font-family: base.$basic-text;
+        font-size: base.$fs-29;
+        color: base.$color-grey-text2;
+        margin-block-start: 21px;
+        margin-block-end: 124px;
+        margin-inline: auto;
+        text-align: center;
+        block-size: 181px;
+        inline-size: 479px;
+    }
+}
+
+/* Section cta start */
+
+.cta-start-section {
+    inline-size: 100%;
+    block-size: 294px;
+    background-color: base.$point-desabled;
+    display: flex;
+    align-items: center;
+    &__container{
+        inline-size: 100%;
+        block-size: 183px;
+        background-color: base.$dashed-design;
+        border-radius: 7px;
+        display: flex;
+        align-items: center;
+    }
+}

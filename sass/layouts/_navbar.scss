@@ -1,1 +1,70 @@
 @use "../base/theme";
+
+
+.l-main-nav {
+    position: absolute;
+    top: 21px;
+    inline-size: 100%;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        padding-inline-start: 34px;
+    }
+    &__content-right {
+        margin-inline-end: 65px;
+    }
+    &__container-toggle-button{
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__cta:last-child {
+        margin-inline-start: 26px;
+    }
+    &__cta-link{
+        text-decoration: none;
+        color: theme.$white-main;
+    }
+    &__container-list{
+        inline-size: 591px;
+        margin-block-start: 25px;
+        display: flex;
+    }
+    &__list{
+        inline-size: 100%;
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+    }
+    &__link{
+        font-size: theme.$fs-20;
+        color: theme.$white-main;
+        font-weight: 300;
+    }
+    &__ul-rubrique{
+        position: absolute;
+        margin-block-start: 10px;
+        list-style-type: none;
+        block-size: 220px;
+        inline-size: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: theme.$dark-black;
+        padding-block: 10px;
+    }
+    &__rubriques-link{
+        color: theme.$white-main;
+        font-family: theme.$basic-text;
+        font-size: theme.$fs-16;
+        font-weight: 300;
+        margin-inline-start: 10px;
+    }
+
+    }
+
+
+
+
+
+

@@ -1,1 +1,80 @@
 @use "../base/theme";
+
+
+/* Footer */
+
+.l-main-footer {
+    inline-size: 100%;
+    block-size: 336px;
+    background-color: theme.$blue-footer;
+    &__container {
+        display: flex;
+    }
+    &__list{
+        list-style-type: none;
+        color: theme.$white-main;
+    }
+    &__content-left{
+        inline-size: 504px;
+        block-size: 100%;
+        display: flex;
+    }
+    &__container-mention-legales{
+        inline-size: 277px;
+        margin-block-start: 61px;
+        display: flex;
+        block-size: 129px;
+    }
+    &__container-plan-site{
+        inline-size: 229px;
+        margin-block-start: 61px;
+        block-size: 205px;
+        display: flex;
+    }
+    &__content-center{
+        inline-size: 302px;
+        block-size: 100%;
+        margin-block-start: 61px;
+    }
+    &__card{
+        iframe {inline-size: 302px;
+            block-size: 169px;
+            background-color: theme.$white-main;
+            margin-block-start: 21px;}
+    }
+    &__content-right{
+        margin-block-start: 61px;
+        inline-size: 540px;
+        block-size: 100%;
+        display: flex;
+    }
+    &__container-divers-social{
+        inline-size: 298px;
+        block-size: 134px;
+        margin-inline-start: 142px;
+        display: flex;
+    }
+    &__list{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &__link{
+        font-family: theme.$basic-text;
+        font-size: theme.$fs-20;
+        color: theme.$white-main;
+        font-weight: 100;
+        justify-content: space-between;
+    }
+    &__container-social-media{
+        inline-size: 145px;
+        block-size: 188PX;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    &__svg-social{
+        object-fit: contain;
+    }
+}
