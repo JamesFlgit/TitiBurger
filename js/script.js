@@ -16,7 +16,3 @@ function cacherListe() {
 linkRubrique.addEventListener('mouseover', afficherListe);
 linkRubrique.addEventListener('mouseout', cacherListe);
 
-
-
-
-

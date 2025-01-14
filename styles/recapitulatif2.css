@@ -120,10 +120,10 @@ img {
   display: flex;
 }
 .l-main-footer__container-divers-social {
-  inline-size: 298px;
+  inline-size: 100%;
   block-size: 134px;
-  margin-inline-start: 142px;
   display: flex;
+  margin-inline-start: 132px;
 }
 .l-main-footer__list {
   display: flex;
@@ -140,9 +140,10 @@ img {
 .l-main-footer__container-social-media {
   inline-size: 145px;
   block-size: 188PX;
+  margin-inline-end: 20px;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
 }
 .l-main-footer__svg-social {

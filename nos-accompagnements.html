@@ -44,7 +44,7 @@
                 </div>
                 <p class="command-header__sub-title">commander et déguster</p>
                 <div class="command-header__content-slide-to-cash">
-                    <div class="command-header__block-img"><div class="command-header__content-img"></div></div>
+                    <div class="command-header__block-img"><div id="box1" class="command-header__content-img"></div></div>
                     <div class="command-header__bg-line"></div>
                     <div class="command-header__block-img--active"><div class="command-header__content-img--active"></div></div>
                     <div class="command-header__bg-line"></div>
@@ -62,8 +62,10 @@
 
     <section class="u-container list-command">
         <div class="list-command__dashed"><img src="assets/images/dashed1250.png" class="list-command__content-dashed" alt="dashed line"></div>
-        <form id="form-accompagnements" class="list-commande__form">
 
+        <form id="box-accompagnements" class="list-command__form">
+
+            <div id="form-accompagnements"></div>
             <!--
             <div class="list-command__content-article">
                 <div class="style-radio">
@@ -113,20 +115,13 @@
             </div>
 
             -->
-
+            <div class="u-container list-command__content-submit">
+                <button type="submit" class="c-button-cta-start list-command__cta"><a id="btn-suivant" href="nos-boissons.html" class="l-main-nav__cta-link">Suivant</a></button>
+            </div>
 
         </form>
 
-    </section>
 
-
-    <section class="cta-suivant-section">
-        <div class="u-container cta-start-suivant__container">
-                    <div class="u-container cta-start-suivant__content-submit">
-                        <button class="c-button-cta-start cta-start-suivant__cta"><a href="nos-boissons.html" class="l-main-nav__cta-link">Suivant</a></button>
-                    </div>
-        </div>
-    </section>
 
 </main>
 
@@ -176,6 +171,7 @@
 
         </div>
     </footer>
+    <script src="js/localstorage.js"></script>
     <script src="js/nos-accompagnements.js" type="module"></script>
 </body>
 </html>

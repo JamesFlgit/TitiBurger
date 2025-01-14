@@ -143,6 +143,11 @@ main {
     display: flex;
     &__form{
         display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &__form-wrap{
+        display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
@@ -180,19 +185,17 @@ main {
         font-family: base.$basic-text;
         font-size: base.$fs-38;
     }
+    &__content-submit{
+        display: flex;
+        order: 1;
+        justify-content: center;
+        margin-block: 80px;
+    }
 
 }
 
 
-/* Section Cta suivant */
 
-.cta-suivant-section {
-    inline-size: 100%;
-    block-size: 239px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
 
 

@@ -210,18 +210,15 @@ main {
         font-size: base.$fs-29;
         color: base.$color-grey-text2;
     }
+    &__content-submit{
+        display: flex;
+        order: 1;
+        justify-content: center;
+        margin-block: 80px;
+    }
 }
 
 
-/* Section Cta suivant */
-
-.cta-suivant-section {
-    inline-size: 100%;
-    block-size: 239px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
 
 
